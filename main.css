@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Arial";
 }
 
 header{
@@ -30,11 +31,13 @@ padding: 10px;
 #projects{
     text-align: center;
     background-color: #45567d;
+    padding: 0 25px;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .project {
@@ -94,4 +97,27 @@ footer
  padding:50px 0 10px 0;
  display:flex;
  justify-content: space-around;
+}
+
+.img-div{
+    height: 200px;
+}
+
+.crop-img{
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+}
+
+.foo {
+    padding: 25px 0;
+}
+
+.btn{
+    background-color: tomato;
+    padding: 16px;
+    display: inline-block;
+    margin-bottom: 25px;
+    color: white;
+    border-radius: 10px;
 }
